@@ -5,12 +5,13 @@
 body{
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 117.5%;
+    background-size: 117,5%;
     
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 36px;
     color: black;
     background-color: #f1f1f1;
+    padding-top: 100px;
 }
 h2{
     text-align: center;
@@ -19,24 +20,38 @@ h2{
     color: #000000;
     
 }
+
 header{
     background-color: rgb(190, 189, 189);
-   
+    position: fixed;
     box-shadow: 0 0 15px;
     padding-bottom: 0%;
-}
-.centro{
+    box-sizing: border-box;
     width: 100%;
+    top: 0;
+}
+
+
+.centro{
+    width: 75%;
     margin: auto;
 }
-#ficha-tecnica{
-    background-color: rgba(72, 141, 55, 0.969);
+#apresentacao{
     text-align: center;
+    width: 100%;
+}
+#ficha-tecnica{
+    background-color: rgb(72, 141, 55);
+    text-align: center;
+    width: 100%;
+    
 }
 section{
     padding-top: 25%;
     padding-bottom: 25%;
     box-shadow: 10 10 10px;
+    
+    width: 75%;
     
 }
 #personagens{
@@ -44,6 +59,7 @@ section{
     background-color: black;
     border-image-width: 10px;
     display:flexbox ;
+    width: 100%;
     
 }
 #personagens img{
@@ -53,18 +69,21 @@ section{
 
 #trilha-sonora{
     text-align: center;
-    background-color: rgba(72, 141, 55, 0.969);
+    background-color: rgb(72, 141, 55);
+    width: 100%;
 
     
 }
 #elementos{
     text-align: center;
     background-color: black;
+    width: 100%;
    
 }
 #regras-do-jogo{
     text-align: center;
-    background-color: rgba(72, 141, 55, 0.969);
+    background-color: rgb(72, 141, 55);
+    width: 100%;
     
 }
 .fundo{
@@ -73,7 +92,7 @@ section{
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1000px;
+    width: 75%;
     box-shadow: 10 10 10px;
     border-radius: 10px;
 
@@ -81,24 +100,25 @@ section{
 .jogo {
  text-align: center;
  padding: 20px;
+ width: 100%;
  
 }
 
 .btn{
 
-    background-color: rgba(72, 141, 55, 0.969);
+    background-color: rgb(72, 141, 55);
     color: white;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
+    top: 25px;
     
 }
 section, a .jogo {
     padding-top: 10%;
 }
-section, a .btn {
-    padding-top: 10%;
-}
+
+
 .btn:hover{
     background-color: rgba(41, 107, 25, 0.904);
 }
